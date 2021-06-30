@@ -1,8 +1,8 @@
-﻿package main
+package main
 
 import (
+	"github.com/1Bitcoin/http-rest-api/internal/app/apiserver"
 	"github.com/BurntSushi/toml"
-	"http-rest-api/internal/app/apiserver"
 	"log"
 )
 
