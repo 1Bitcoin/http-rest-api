@@ -8,8 +8,8 @@ import (
 
 func TestStore(t *testing.T, databaseURL string) (*Store, func(...string)) {
 	t.Helper()
-	config := NewConfig()
 
+	config := NewConfig()
 	config.DatabaseURL = databaseURL
 	s := New(config)
 
